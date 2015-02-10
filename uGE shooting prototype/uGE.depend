@@ -1190,3 +1190,231 @@
 1423576446 c:\users\christian\documents\github\project_third_person\uge shooting prototype\uge\controllers\bulletcontroller.hpp
 	"Controller.hpp"
 
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\main.cpp
+	<iostream>
+	"MyGame.hpp"
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\mygame.hpp
+	"uGE\Game.hpp"
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\game.hpp
+	<SFML/Window.hpp>
+	"Body.hpp"
+	"GameObject.hpp"
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\body.hpp
+	"GameObject.hpp"
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\gameobject.hpp
+	<string>
+	<vector>
+	"utils/glm.hpp"
+	"Shader.hpp"
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\utils\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\shader.hpp
+	<string>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\mygame.cpp
+	"MyGame.hpp"
+	"uGE/Colliders/SphereCollider.hpp"
+	"uGE/SceneManager.hpp"
+	"uGE/AssetManager.hpp"
+	"uGE/Body.hpp"
+	"uGE/Camera.hpp"
+	"uGE/Controller.hpp"
+	"uGE/GameObject.hpp"
+	"uGE/Light.hpp"
+	"uGE/Mesh.hpp"
+	"uGE/Texture.hpp"
+	"uGE/Controllers/FollowController.hpp"
+	"uGE/Controllers/WasdController.hpp"
+	"uGE/Controllers/RotateController.hpp"
+	"uGE/Controllers/turretController.hpp"
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\colliders\spherecollider.hpp
+	"../utils/glm.hpp"
+	"../Collider.hpp"
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\collider.hpp
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\scenemanager.hpp
+	<vector>
+	<SFML/Window.hpp>
+	"Utils/glm.hpp"
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\assetmanager.hpp
+	<map>
+	<string>
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\camera.hpp
+	"GameObject.hpp"
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\controller.hpp
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\light.hpp
+	"GameObject.hpp"
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\mesh.hpp
+	<cstring>
+	<string>
+	<vector>
+	<map>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\texture.hpp
+	<string>
+	"GL/glew.h"
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\controllers\followcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\controllers\wasdcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\controllers\rotatecontroller.hpp
+	"Controller.hpp"
+
+1423596390 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\controllers\turretcontroller.hpp
+	"Controller.hpp"
+	<SFML/Window.hpp>
+
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\animation.cpp
+	"Animation.hpp"
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\animation.hpp
+
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\assetmanager.cpp
+	"AssetManager.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\body.cpp
+	"Body.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\camera.cpp
+	"Camera.hpp"
+
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\collider.cpp
+	<iostream>
+	"Collider.hpp"
+	"GameObject.hpp"
+
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\colliders\spherecollider.cpp
+	<iostream>
+	"SphereCollider.hpp"
+	"../GameObject.hpp"
+	"../utils/glm.hpp"
+
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\controller.cpp
+	"Utils/glm.hpp"
+	"Controller.hpp"
+	"GameObject.hpp"
+
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\controllers\followcontroller.cpp
+	"FollowController.hpp"
+	"GameObject.hpp"
+
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\controllers\rotatecontroller.cpp
+	"RotateController.hpp"
+	"Utils/glm.hpp"
+	"GameObject.hpp"
+
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\controllers\wasdcontroller.cpp
+	<SFML/Window.hpp>
+	"WasdController.hpp"
+	"GameObject.hpp"
+
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\game.cpp
+	"Game.hpp"
+	"SceneManager.hpp"
+
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\gameobject.cpp
+	<cassert>
+	"GameObject.hpp"
+	"Controller.hpp"
+	"Body.hpp"
+	"Collider.hpp"
+
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\light.cpp
+	"Light.hpp"
+
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\mesh.cpp
+	"Mesh.hpp"
+	<fstream>
+	<map>
+
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\scenemanager.cpp
+	"SceneManager.hpp"
+	<GL/glew.h>
+	"Utils/glm.hpp"
+	"Camera.hpp"
+	"GameObject.hpp"
+	"Light.hpp"
+	"Shader.hpp"
+	"time.hpp"
+	"body.hpp"
+
+1423590815 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\time.hpp
+	<SFML/System.hpp>
+
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\shader.cpp
+	"Shader.hpp"
+	<fstream>
+	<iostream>
+	<sstream>
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\texture.cpp
+	"Texture.hpp"
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1423590815 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\time.cpp
+	"Time.hpp"
+	<iostream>
+
+1423597023 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\controllers\turretcontroller.cpp
+	"turretController.hpp"
+	"Utils/glm.hpp"
+	<iostream>
+	<windows.h>
+	<Time.hpp>
+	"GameObject.hpp"
+	"SceneManager.hpp"
+	"bulletController.hpp"
+	"Colliders/SphereCollider.hpp"
+	"../uGE/SceneManager.hpp"
+	"../uGE/AssetManager.hpp"
+	"../uGE/Body.hpp"
+	"../uGE/Camera.hpp"
+	"../uGE/Controller.hpp"
+	"../uGE/Light.hpp"
+	"../uGE/Mesh.hpp"
+	"../uGE/Texture.hpp"
+
+1423593341 c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\controllers\bulletcontroller.hpp
+	"Controller.hpp"
+	"glm.hpp"
+
+1423597066 source:c:\users\christiank\documents\github\project_third_person\uge shooting prototype\uge\controllers\bulletcontroller.cpp
+	"bulletController.hpp"
+	"GameObject.hpp"
+	<Time.hpp>
+

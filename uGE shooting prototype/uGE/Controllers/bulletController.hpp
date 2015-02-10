@@ -2,6 +2,7 @@
 #define BULLETCONTROLLER_HPP
 
 #include "Controller.hpp"
+#include "glm.hpp"
 
 namespace uGE {
 

@@ -17,6 +17,7 @@ namespace uGE {
             virtual ~turretController();
 
             void update();
+            void startClock(int);
         protected:
         private:
     };

@@ -31,6 +31,7 @@ namespace uGE {
     bool hasShot = false;
 
 
+
     turretController::turretController(uGE::GameObject * parent)
     :	Controller( parent ), window(0)
     {
@@ -42,18 +43,24 @@ namespace uGE {
         //dtor
     }
 
+    void turretController::startClock(int timeMilli){
+
+
+
+    }
+
     void turretController::update()
 	{
-	   /* if(hasShot == true){
 
-            if(bulletTimer <= reloadTimer){
-                bulletTimer += Time.deltaTime;
-            }
-            if(bulletTimer >= reloadTimer){
+	    if(hasShot == true){
+            //timer.restart();
+            sf::Time elapsed = timer.getElapsedTime();
+            std::cout << elapsed.asSeconds() << std::endl;
+            if(elapsed.asMilliseconds() >= 20){
                 hasShot = false;
-                bulletTimer = 0.0f;
+                std::cout << elapsed.asMilliseconds() << std::endl;
             }
-	    }*/
+	    }
 		glm::mat4 & transform = _parent->transform;
         if(hasShot == false){
             if (sf::Keyboard::isKeyPressed( sf::Keyboard::Space )){
@@ -68,6 +75,7 @@ namespace uGE {
                 bullet->setController( new uGE::bulletController( bullet ) );
                 bullet->setCollider( new uGE::SphereCollider( bullet , 1.0f ) );
                 hasShot = true;
+                sf::Clock timer;
             }
         }
 
