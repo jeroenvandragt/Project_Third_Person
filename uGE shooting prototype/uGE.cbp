@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="uGE" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/uGE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="uGE" />
+					<Add directory="uGE/Utils" />
+					<Add directory="uGE/" />
+					<Add directory="uGE/Managers" />
+					<Add directory="uGE/GL" />
+					<Add directory="uGE/Controllers" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/uGE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="uGE" />
+					<Add directory="uGE/Utils" />
+					<Add directory="uGE/" />
+					<Add directory="uGE/Managers" />
+					<Add directory="uGE/GL" />
+					<Add directory="uGE/Controllers" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add library="opengl32" />
+			<Add library="glew32" />
+			<Add library="sfml-graphics" />
+			<Add library="sfml-window" />
+			<Add library="sfml-system" />
+		</Linker>
+		<Unit filename="MyGame.cpp" />
+		<Unit filename="MyGame.hpp" />
+		<Unit filename="Shaders/Terrain shader.fs" />
+		<Unit filename="Shaders/Terrain shader.vs" />
+		<Unit filename="Shaders/basic.fs" />
+		<Unit filename="Shaders/basic.vs" />
+		<Unit filename="main.cpp" />
+		<Unit filename="uGE/Animation.cpp" />
+		<Unit filename="uGE/Animation.hpp" />
+		<Unit filename="uGE/AssetManager.cpp" />
+		<Unit filename="uGE/AssetManager.hpp" />
+		<Unit filename="uGE/Body.cpp" />
+		<Unit filename="uGE/Body.hpp" />
+		<Unit filename="uGE/Camera.cpp" />
+		<Unit filename="uGE/Camera.hpp" />
+		<Unit filename="uGE/Collider.cpp" />
+		<Unit filename="uGE/Collider.hpp" />
+		<Unit filename="uGE/Colliders/SphereCollider.cpp" />
+		<Unit filename="uGE/Colliders/SphereCollider.hpp" />
+		<Unit filename="uGE/Controller.cpp" />
+		<Unit filename="uGE/Controller.hpp" />
+		<Unit filename="uGE/Controllers/FollowController.cpp" />
+		<Unit filename="uGE/Controllers/FollowController.hpp" />
+		<Unit filename="uGE/Controllers/RotateController.cpp" />
+		<Unit filename="uGE/Controllers/RotateController.hpp" />
+		<Unit filename="uGE/Controllers/WasdController.cpp" />
+		<Unit filename="uGE/Controllers/WasdController.hpp" />
+		<Unit filename="uGE/Controllers/bulletController.cpp" />
+		<Unit filename="uGE/Controllers/bulletController.hpp" />
+		<Unit filename="uGE/Controllers/turretController.cpp" />
+		<Unit filename="uGE/Controllers/turretController.hpp" />
+		<Unit filename="uGE/Game.cpp" />
+		<Unit filename="uGE/Game.hpp" />
+		<Unit filename="uGE/GameObject.cpp" />
+		<Unit filename="uGE/GameObject.hpp" />
+		<Unit filename="uGE/Light.cpp" />
+		<Unit filename="uGE/Light.hpp" />
+		<Unit filename="uGE/Mesh.cpp" />
+		<Unit filename="uGE/Mesh.hpp" />
+		<Unit filename="uGE/SceneManager.cpp" />
+		<Unit filename="uGE/SceneManager.hpp" />
+		<Unit filename="uGE/Shader.cpp" />
+		<Unit filename="uGE/Shader.hpp" />
+		<Unit filename="uGE/Texture.cpp" />
+		<Unit filename="uGE/Texture.hpp" />
+		<Unit filename="uGE/Time.cpp" />
+		<Unit filename="uGE/Time.hpp" />
+		<Unit filename="uGE/Utils/glm.hpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
