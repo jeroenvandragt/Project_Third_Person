@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1423593719 source:c:\users\jeroen\onedrive\documenten\ein2gtb\2.1 c++ 2d\week 2\tcp client test\main.cpp
+	<iostream>
+	<SFML/Network.hpp>
+	<SFML/Window.hpp>
+	<Utils/glm.hpp>
+	<string>
+
+1420542110 c:\users\jeroen\onedrive\documenten\ein2gtb\2.1 c++ 2d\week 2\tcp client test\utils\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
