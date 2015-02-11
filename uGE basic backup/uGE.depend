@@ -965,3 +965,221 @@
 	"Time.hpp"
 	<iostream>
 
+1423647672 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\main.cpp
+	<iostream>
+	"MyGame.hpp"
+
+1420542112 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\mygame.hpp
+	"uGE\Game.hpp"
+
+1423651571 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\game.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+	"Body.hpp"
+	"GameObject.hpp"
+
+1421745281 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\body.hpp
+	"GameObject.hpp"
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1423654746 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\gameobject.hpp
+	<string>
+	<vector>
+	"utils/glm.hpp"
+	"Shader.hpp"
+
+1420542110 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\utils\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1421423704 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\shader.hpp
+	<string>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+
+1423661100 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\mygame.cpp
+	"MyGame.hpp"
+	"uGE/Colliders/SphereCollider.hpp"
+	"uGE/SceneManager.hpp"
+	"uGE/AssetManager.hpp"
+	"uGE/Body.hpp"
+	"uGE/Camera.hpp"
+	"uGE/Controller.hpp"
+	"uGE/GameObject.hpp"
+	"uGE/Light.hpp"
+	"uGE/Mesh.hpp"
+	"uGE/Texture.hpp"
+	"uGE/Controllers/FollowController.hpp"
+	"uGE/Controllers/WasdController.hpp"
+	"uGE/Controllers/RotateController.hpp"
+	"uGE/luaEnvironment.hpp"
+
+1423649007 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\colliders\spherecollider.hpp
+	"../utils/glm.hpp"
+	"../Collider.hpp"
+
+1423649188 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\collider.hpp
+
+1423651944 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\scenemanager.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	<vector>
+	<SFML/Window.hpp>
+	"Utils/glm.hpp"
+	<GL/glew.h>
+	"luaEnvironment.hpp"
+	"Camera.hpp"
+	"GameObject.hpp"
+	"Light.hpp"
+	"Shader.hpp"
+	"time.hpp"
+	"body.hpp"
+
+1420542108 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\assetmanager.hpp
+	<map>
+	<string>
+
+1420542108 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\camera.hpp
+	"GameObject.hpp"
+
+1420546251 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\controller.hpp
+
+1420542109 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\light.hpp
+	"GameObject.hpp"
+
+1420542109 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\mesh.hpp
+	<cstring>
+	<string>
+	<vector>
+	<map>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1420542109 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\texture.hpp
+	<string>
+	"GL/glew.h"
+
+1421742582 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\controllers\followcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1421414369 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\controllers\wasdcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1421414425 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\controllers\rotatecontroller.hpp
+	"Controller.hpp"
+
+1420542108 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\animation.cpp
+	"Animation.hpp"
+
+1420542108 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\animation.hpp
+
+1420542108 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\assetmanager.cpp
+	"AssetManager.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1423662454 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\body.cpp
+	"Body.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1420542108 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\camera.cpp
+	"Camera.hpp"
+
+1420546129 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\collider.cpp
+	<iostream>
+	"Collider.hpp"
+	"GameObject.hpp"
+
+1423649955 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\colliders\spherecollider.cpp
+	<iostream>
+	"SphereCollider.hpp"
+	"../GameObject.hpp"
+	"../utils/glm.hpp"
+
+1420546307 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\controller.cpp
+	"Utils/glm.hpp"
+	"Controller.hpp"
+	"GameObject.hpp"
+
+1423215918 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\controllers\followcontroller.cpp
+	"FollowController.hpp"
+	"GameObject.hpp"
+
+1421750037 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\controllers\rotatecontroller.cpp
+	"RotateController.hpp"
+	"Utils/glm.hpp"
+	"GameObject.hpp"
+
+1421749562 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\controllers\wasdcontroller.cpp
+	<SFML/Window.hpp>
+	"WasdController.hpp"
+	"GameObject.hpp"
+
+1423651425 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\game.cpp
+	"Game.hpp"
+	"SceneManager.hpp"
+
+1423662459 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\gameobject.cpp
+	"GameObject.hpp"
+	"Controller.hpp"
+	"Body.hpp"
+	"Collider.hpp"
+
+1421749862 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\light.cpp
+	"Light.hpp"
+
+1420542109 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\mesh.cpp
+	"Mesh.hpp"
+	<fstream>
+	<map>
+
+1423658058 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\scenemanager.cpp
+	"SceneManager.hpp"
+
+1420542109 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\time.hpp
+	<SFML/System.hpp>
+
+1421422088 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\shader.cpp
+	"Shader.hpp"
+	<fstream>
+	<iostream>
+	<sstream>
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1420542109 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\texture.cpp
+	"Texture.hpp"
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1420542109 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\time.cpp
+	"Time.hpp"
+	<iostream>
+
+1423390155 c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\luaenvironment.hpp
+	<iostream>
+	<stdexcept>
+	<windows.h>
+	<lua.hpp>
+	"utils/glm.hpp"
+	"GameObject.hpp"
+	"SceneManager.hpp"
+	"AssetManager.hpp"
+	"Body.hpp"
+	"../Colliders/SphereCollider.hpp"
+	"../Controllers/FollowController.hpp"
+	"../Controllers/WasdController.hpp"
+	"../Controllers/RotateController.hpp"
+	"time.hpp"
+
+1423662847 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\luaenvironment.cpp
+	"luaEnvironment.hpp"
+

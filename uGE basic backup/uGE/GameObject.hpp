@@ -39,19 +39,21 @@ namespace uGE {
 			void setBody( Body * body );
 
             bool hasCollider();
+            bool hasBody();
 			void setCollider( Collider * collider );
 			void setController( Controller * controller );
-
-			Body * getBody();
 
 			void render( Shader * shader, glm::mat4 & parentTransform );
 			void update();
 
             virtual bool hasCollisionWith( GameObject * otherGameObject );
+            virtual bool hasCollisionWithLua( GameObject * otherGameObject, float luaRadius );
             void onCollision ( GameObject * otherGameObject );
 
 			void setPosition( glm::vec3 position );
 			glm::vec3 getPosition();
+			Body * getBody();
+            bool hasbody;
 
 	};
 }

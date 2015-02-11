@@ -17,7 +17,9 @@ namespace uGE
             float radius;
 
             virtual bool collides( Collider * otherCollider );
+            virtual bool collides( Collider * otherCollider, float luaRadius );
             virtual bool collides( SphereCollider * otherCollider );
+            virtual bool collides( SphereCollider * otherCollider, float luaRadius );
     };
 }
 

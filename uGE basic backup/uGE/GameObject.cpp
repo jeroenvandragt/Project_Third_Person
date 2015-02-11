@@ -10,6 +10,7 @@ namespace uGE {
 	: transform( _transform ), _name( name ), _body( 0 ), _collider( 0 ), _controller( 0 )
 	{
 	    hasCol = false;
+	    hasbody = false;
 	}
 
 	GameObject::~GameObject()
@@ -44,7 +45,19 @@ namespace uGE {
 
 	void GameObject::setBody( Body * body )
 	{
+
 		_body = body;
+		hasbody = true;
+	}
+
+	bool GameObject::hasBody()
+	{
+	    return hasbody;
+	}
+
+	Body * GameObject::getBody()
+	{
+	    return _body;
 	}
 
 	void GameObject::setCollider( Collider * collider )
@@ -74,13 +87,6 @@ namespace uGE {
         return glm::vec3(transform[3][0],transform[3][1],transform[3][2]);
 	}
 
-	Body * GameObject::getBody()
-	{
-	    return _body;
-	}
-
-
-
 	void GameObject::update()
 	{
 		if ( _controller ) _controller->update();
@@ -96,6 +102,18 @@ namespace uGE {
         if ( _collider ) {
             _collider->collides( otherGameObject->_collider );
         }
+    }
+
+     // bugFix for collisionCall from .lua file.
+    // normal collision was called first so collisionCall from lua would never got trough.
+    // with this function the collision radius gets increased by "luaRadius" so it hits the object before the normal collision.
+    bool GameObject::hasCollisionWithLua( GameObject * otherGameObject, float luaRadius )
+    {
+        if ( _collider )
+        {
+            _collider->collides( otherGameObject->_collider, luaRadius );
+        }
+        //return false;
     }
 
     void GameObject::onCollision ( GameObject * otherGameObject )

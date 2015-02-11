@@ -13,7 +13,9 @@
 #include "uGE/Controllers/FollowController.hpp"
 #include "uGE/Controllers/WasdController.hpp"
 #include "uGE/Controllers/RotateController.hpp"
+#include "uGE/luaEnvironment.hpp"
 
+sf::Thread * myLuaStartThread;//variable cannot go out of scope
 
 MyGame::MyGame()
 {
@@ -94,5 +96,9 @@ bool MyGame::load()
 
 	uGE::SceneManager::setPlayer( player );
 
+	//myLuaStartThread = new sf::Thread(&uGE::luaEnvironment::start); //zet thread klaar
+    //std::cout << myLuaStartThread << "**\n";
+    //myLuaStartThread->launch(); //begin thread
+    //uGE::luaEnvironment::start();
 	return true; // success
 }

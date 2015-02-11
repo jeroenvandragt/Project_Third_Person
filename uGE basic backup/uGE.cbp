@@ -20,6 +20,9 @@
 					<Add directory="uGE/Managers" />
 					<Add directory="uGE/GL" />
 				</Compiler>
+				<Linker>
+					<Add library="lua" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/uGE" prefix_auto="1" extension_auto="1" />
@@ -94,6 +97,8 @@
 		<Unit filename="uGE/Time.cpp" />
 		<Unit filename="uGE/Time.hpp" />
 		<Unit filename="uGE/Utils/glm.hpp" />
+		<Unit filename="uGE/luaEnvironment.cpp" />
+		<Unit filename="uGE/luaEnvironment.hpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

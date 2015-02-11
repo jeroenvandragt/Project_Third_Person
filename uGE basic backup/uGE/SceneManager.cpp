@@ -1,14 +1,5 @@
 #include "SceneManager.hpp"
-#include <GL/glew.h>
 
-#include "Utils/glm.hpp"
-
-#include "Camera.hpp"
-#include "GameObject.hpp"
-#include "Light.hpp"
-#include "Shader.hpp"
-#include "time.hpp"
-#include "body.hpp"
 
 namespace uGE {
 
@@ -17,7 +8,10 @@ namespace uGE {
 	Shader * SceneManager::_shader;
 	GameObject * SceneManager::_player;
 	Shader * SceneManager::shaderToUse;
-	float SceneManager::clock = 0;
+	//float SceneManager::clock = 0;
+
+	sf::Thread * myLuaThread;//variable cannot go out of scope
+	std::string _renderText;
 
 	std::vector< GameObject * > SceneManager::_objects;
 
@@ -56,8 +50,13 @@ namespace uGE {
         _player = object;
 	}
 
+	void SceneManager::setRenderText( std::string renderText )
+	{
+	 _renderText = renderText;
+	}
 
-	bool SceneManager::control( sf::Window * window )
+
+	bool SceneManager::control( sf::RenderWindow * window )
 	{
 		sf::Event event;
 		while( window->pollEvent( event ) ) { // we must empty the event queue
@@ -70,7 +69,7 @@ namespace uGE {
 
 	}
 
-	void SceneManager::render( sf::Window * window )
+	void SceneManager::render( sf::RenderWindow * window )
 	{
         glEnable( GL_DEPTH_TEST ); // must be enabled after after use program
         glClear( GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
@@ -96,22 +95,68 @@ namespace uGE {
 
 
         }
+
+        // Render Window stuff
+        // Declare and load a font
+        sf::Font font;
+        font.loadFromFile( "VTKS FUTURE.ttf" );
+        // Create a text which uses our font
+        sf::Text text;
+        text.setString( std::string( "hello" ) );
+        text.setFont( font );
+        text.setCharacterSize( 20 );
+        text.setStyle(sf::Text::Bold);
+        text.setColor(sf::Color::Yellow);
+        text.setPosition( 20, 15 );
+        text.setString(_renderText);
+
+        // Declare and set shape
+        sf::RectangleShape rectangle( sf::Vector2f( 500, 70 ) );
+        rectangle.setFillColor( sf::Color( 200, 200, 200, 200 ));
+        rectangle.setOutlineThickness( 10 );
+        rectangle.setOutlineColor( sf::Color( 100, 100, 100, 200 ) );
+        rectangle.setPosition( 15, 15 );
+
+
+        // adding text to screen
+        glBindBuffer( GL_ARRAY_BUFFER, 0 );
+        glDisableVertexAttribArray( 0 );
+        window->pushGLStates();
+        if (text.getString() != "")
+        {
+            window->draw( rectangle );
+        }
+
+        window->draw( text );
+        window->popGLStates();
+
+        // -------------
+
+
+
 		window->display();
 	}
 
-
-
 	void SceneManager::update()
 	{
-	    _light->setPosition(glm::vec3(4* cos(clock), 5 , 4* sin(clock)-20)) ;
+	    // luaEnvironment::update() in new thread
+	    //myLuaThread = new sf::Thread(&uGE::luaEnvironment::update); // prepare thread
+       // myLuaThread->launch(); // begin thread
+
+        // Light rotation
+	    //_light->setPosition(glm::vec3(4* cos(clock), 5 , 4* sin(clock)-20)) ;
+
+		// update functions
 		_camera->update();
 		_light->update();
 		Time::update();
-        clock = Time::now();
+        //clock = Time::now();
+
+        // collision check between Player and "object"
 		for ( auto i = _objects.begin(); i != _objects.end(); ++i )
         {
 			GameObject * object = (GameObject*) *i;
-			object->update();
+
 
             if( object->hasCollider() )
             {
@@ -126,8 +171,8 @@ namespace uGE {
 
                 }
 
-
             }
+            object->update();
 
 		}
 

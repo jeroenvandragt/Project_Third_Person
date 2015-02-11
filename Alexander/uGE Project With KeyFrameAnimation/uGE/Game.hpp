@@ -1,6 +1,9 @@
 #ifndef GAME_H
 #define GAME_H
+
 #include <SFML/Window.hpp>
+#include <SFML/Graphics.hpp>
+#include <SFML/System.hpp>
 
 #include "Body.hpp"
 #include "GameObject.hpp"
@@ -13,7 +16,7 @@ namespace uGE {
 	class Game
 	{
 		protected:
-			sf::Window * _window;
+			sf::RenderWindow * _window;
 		public:
 			Game();
 			virtual ~Game();

@@ -4,7 +4,7 @@
 namespace uGE {
 
 	Game::Game()
-	:	_window ( new sf::Window( sf::VideoMode( 800, 600), "Saxion uGE Game" ) )
+	:	_window ( new sf::RenderWindow( sf::VideoMode( 800, 600), "Saxion uGE Game" ) )
 	{
 		_window->setVerticalSyncEnabled( true );
 		std::cout << "Init Glew " << glewInit() << " GL : " << glGetString( GL_VERSION ) << std::endl;
@@ -26,9 +26,7 @@ namespace uGE {
 		bool running = true;
 		while ( running ) {
 			running = SceneManager::control( _window );
-
 			SceneManager::update();
-
 			SceneManager::render( _window );
 
 			if (sf::Keyboard::isKeyPressed( sf::Keyboard::Escape )) running = false;
