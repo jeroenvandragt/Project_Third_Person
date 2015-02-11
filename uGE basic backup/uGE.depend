@@ -1183,3 +1183,216 @@
 1423662847 source:c:\users\henk-jan\documents\github\project 2.3\project_third_person\uge\uge\luaenvironment.cpp
 	"luaEnvironment.hpp"
 
+1423585883 source:c:\users\christian\documents\github\project_third_person\uge basic backup\main.cpp
+	<iostream>
+	"MyGame.hpp"
+
+1423585883 c:\users\christian\documents\github\project_third_person\uge basic backup\mygame.hpp
+	"uGE\Game.hpp"
+
+1423585883 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\game.hpp
+	<SFML/Window.hpp>
+	"Body.hpp"
+	"GameObject.hpp"
+
+1423585883 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\body.hpp
+	"GameObject.hpp"
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1423664684 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\gameobject.hpp
+	<string>
+	<vector>
+	"utils/glm.hpp"
+	"Shader.hpp"
+
+1423585883 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\utils\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1423585883 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\shader.hpp
+	<string>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+
+1423664684 source:c:\users\christian\documents\github\project_third_person\uge basic backup\mygame.cpp
+	"MyGame.hpp"
+	"uGE/Colliders/SphereCollider.hpp"
+	"uGE/SceneManager.hpp"
+	"uGE/AssetManager.hpp"
+	"uGE/Body.hpp"
+	"uGE/Camera.hpp"
+	"uGE/Controller.hpp"
+	"uGE/GameObject.hpp"
+	"uGE/Light.hpp"
+	"uGE/Mesh.hpp"
+	"uGE/Texture.hpp"
+	"uGE/Controllers/FollowController.hpp"
+	"uGE/Controllers/WasdController.hpp"
+	"uGE/Controllers/RotateController.hpp"
+	"uGE/luaEnvironment.hpp"
+
+1423585883 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\colliders\spherecollider.hpp
+	"../utils/glm.hpp"
+	"../Collider.hpp"
+
+1423585883 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\collider.hpp
+
+1423664684 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\scenemanager.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	<vector>
+	<SFML/Window.hpp>
+	"Utils/glm.hpp"
+	<GL/glew.h>
+	"luaEnvironment.hpp"
+	"Camera.hpp"
+	"GameObject.hpp"
+	"Light.hpp"
+	"Shader.hpp"
+	"time.hpp"
+	"body.hpp"
+
+1423585883 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\camera.hpp
+	"GameObject.hpp"
+
+1423585883 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\light.hpp
+	"GameObject.hpp"
+
+1423585883 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\time.hpp
+	<SFML/System.hpp>
+
+1423585883 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\assetmanager.hpp
+	<map>
+	<string>
+
+1423585883 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\controller.hpp
+
+1423585883 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\mesh.hpp
+	<cstring>
+	<string>
+	<vector>
+	<map>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1423585883 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\texture.hpp
+	<string>
+	"GL/glew.h"
+
+1423585883 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\controllers\followcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1423585883 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\controllers\wasdcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1423585883 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\controllers\rotatecontroller.hpp
+	"Controller.hpp"
+
+1423585883 source:c:\users\christian\documents\github\project_third_person\uge basic backup\uge\animation.cpp
+	"Animation.hpp"
+
+1423585883 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\animation.hpp
+
+1423585883 source:c:\users\christian\documents\github\project_third_person\uge basic backup\uge\assetmanager.cpp
+	"AssetManager.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1423585883 source:c:\users\christian\documents\github\project_third_person\uge basic backup\uge\body.cpp
+	"Body.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1423585883 source:c:\users\christian\documents\github\project_third_person\uge basic backup\uge\camera.cpp
+	"Camera.hpp"
+
+1423585883 source:c:\users\christian\documents\github\project_third_person\uge basic backup\uge\collider.cpp
+	<iostream>
+	"Collider.hpp"
+	"GameObject.hpp"
+
+1423585883 source:c:\users\christian\documents\github\project_third_person\uge basic backup\uge\colliders\spherecollider.cpp
+	<iostream>
+	"SphereCollider.hpp"
+	"../GameObject.hpp"
+	"../utils/glm.hpp"
+
+1423585883 source:c:\users\christian\documents\github\project_third_person\uge basic backup\uge\controller.cpp
+	"Utils/glm.hpp"
+	"Controller.hpp"
+	"GameObject.hpp"
+
+1423585883 source:c:\users\christian\documents\github\project_third_person\uge basic backup\uge\controllers\followcontroller.cpp
+	"FollowController.hpp"
+	"GameObject.hpp"
+
+1423585883 source:c:\users\christian\documents\github\project_third_person\uge basic backup\uge\controllers\rotatecontroller.cpp
+	"RotateController.hpp"
+	"Utils/glm.hpp"
+	"GameObject.hpp"
+
+1423585883 source:c:\users\christian\documents\github\project_third_person\uge basic backup\uge\controllers\wasdcontroller.cpp
+	<SFML/Window.hpp>
+	"WasdController.hpp"
+	"GameObject.hpp"
+
+1423585883 source:c:\users\christian\documents\github\project_third_person\uge basic backup\uge\game.cpp
+	"Game.hpp"
+	"SceneManager.hpp"
+
+1423664684 source:c:\users\christian\documents\github\project_third_person\uge basic backup\uge\gameobject.cpp
+	"GameObject.hpp"
+	"Controller.hpp"
+	"Body.hpp"
+	"Collider.hpp"
+
+1423585883 source:c:\users\christian\documents\github\project_third_person\uge basic backup\uge\light.cpp
+	"Light.hpp"
+
+1423585883 source:c:\users\christian\documents\github\project_third_person\uge basic backup\uge\mesh.cpp
+	"Mesh.hpp"
+	<fstream>
+	<map>
+
+1423664684 source:c:\users\christian\documents\github\project_third_person\uge basic backup\uge\scenemanager.cpp
+	"SceneManager.hpp"
+
+1423585883 source:c:\users\christian\documents\github\project_third_person\uge basic backup\uge\shader.cpp
+	"Shader.hpp"
+	<fstream>
+	<iostream>
+	<sstream>
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1423585883 source:c:\users\christian\documents\github\project_third_person\uge basic backup\uge\texture.cpp
+	"Texture.hpp"
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1423585883 source:c:\users\christian\documents\github\project_third_person\uge basic backup\uge\time.cpp
+	"Time.hpp"
+	<iostream>
+
+1423664685 c:\users\christian\documents\github\project_third_person\uge basic backup\uge\luaenvironment.hpp
+	<iostream>
+	<stdexcept>
+	<windows.h>
+	<lua.hpp>
+	"utils/glm.hpp"
+	"GameObject.hpp"
+	"SceneManager.hpp"
+	"AssetManager.hpp"
+	"Body.hpp"
+	"../Colliders/SphereCollider.hpp"
+	"../Controllers/FollowController.hpp"
+	"../Controllers/WasdController.hpp"
+	"../Controllers/RotateController.hpp"
+	"time.hpp"
+

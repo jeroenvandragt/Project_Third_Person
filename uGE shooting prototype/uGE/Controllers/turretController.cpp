@@ -69,6 +69,7 @@ namespace uGE {
                 uGE::GameObject * bullet = new uGE::GameObject( "Bullet" );
                 //bullet->transform = _parent->parent->transform * _parent->transform;
                 bullet->transform = _parent->getParent()->transform * _parent->transform;
+                bullet->transform = glm::translate( bullet->transform, glm::vec3(0, 0, 1.3f) );
                 //bullet->setPosition( glm::vec3( 0, 0, 0 ) );
                 uGE::Body * bulletBody = new uGE::Body( bullet );
                     bulletBody->setMesh( uGE::AssetManager::loadMesh( "Assets/bullet.obj" ) );
@@ -77,7 +78,6 @@ namespace uGE {
 
                 bullet->setController( new uGE::bulletController( bullet ) );
                 bullet->setCollider( new uGE::SphereCollider( bullet , 1.0f ) );
-                //_parent->addChild(bullet);
                 uGE::SceneManager::add(bullet);
                 hasShot = true;
                 timer.restart();
