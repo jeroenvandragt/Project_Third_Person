@@ -14,6 +14,7 @@
 #include "uGE/Controllers/WasdController.hpp"
 #include "uGE/Controllers/RotateController.hpp"
 #include "uGE/Controllers/turretController.hpp"
+#include "uGE/Controllers/bulletController.hpp"
 
 
 MyGame::MyGame()
@@ -28,7 +29,7 @@ MyGame::~MyGame()
 
 bool MyGame::load()
 {
-	uGE::SceneManager::add( uGE::Shader::load( "Shaders/basic.vs", "Shaders/basic.fs") ); // load other shader
+	uGE::SceneManager::add( uGE::Shader::load( "Shaders/specular.vs", "Shaders/specular.fs") ); // load other shader
 		uGE::Camera * camera = new uGE::Camera( "Camera", glm::vec3( 0, 3, -10 ) );
 		uGE::Light * light = new uGE::Light( "Sun", glm::vec3( 0, 5, 0) );
 
@@ -56,6 +57,7 @@ bool MyGame::load()
 				turretBody->setTexture1( uGE::AssetManager::loadTexture( "Assets/bricks.jpg") );
 				turret->setBody( turretBody );
 				player->addChild(turret);
+				turret->setParent(player);
 				turret->setController( new uGE::turretController( turret ) );
 				turret->setCollider( new uGE::SphereCollider( turret , 1.0f ) );
 

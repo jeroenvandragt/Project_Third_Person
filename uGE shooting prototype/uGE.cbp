@@ -83,6 +83,8 @@
 		<Unit filename="uGE/Controllers/bulletController.hpp" />
 		<Unit filename="uGE/Controllers/turretController.cpp" />
 		<Unit filename="uGE/Controllers/turretController.hpp" />
+		<Unit filename="uGE/FPS.cpp" />
+		<Unit filename="uGE/FPS.hpp" />
 		<Unit filename="uGE/Game.cpp" />
 		<Unit filename="uGE/Game.hpp" />
 		<Unit filename="uGE/GameObject.cpp" />

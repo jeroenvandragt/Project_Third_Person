@@ -10,7 +10,7 @@ namespace uGE {
     class bulletController : public Controller
     {
         public:
-            bulletController(uGE::GameObject * parent);
+            bulletController(uGE::GameObject * parent );
             virtual ~bulletController();
 
             void update();

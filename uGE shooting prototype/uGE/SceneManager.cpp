@@ -1,8 +1,9 @@
+#include <iostream>
 #include "SceneManager.hpp"
 #include <GL/glew.h>
 
 #include "Utils/glm.hpp"
-
+#include "FPS.hpp"
 #include "Camera.hpp"
 #include "GameObject.hpp"
 #include "Light.hpp"
@@ -113,10 +114,15 @@ namespace uGE {
 		_camera->update();
 		_light->update();
 		Time::update();
+		FPS::update();
+		//std::cout << FPS::getFPS() << std::endl;
         clock = Time::now();
-		for ( auto i = _objects.begin(); i != _objects.end(); ++i )
+//		for ( auto i = _objects.begin(); i != _objects.end(); ++i )
+        for ( int i = 0; i < _objects.size(); ++i )
         {
-			GameObject * object = (GameObject*) *i;
+//			GameObject * object = (GameObject*) *i;
+			GameObject * object = _objects[i];
+			std::string s = object->getName();
 			object->update();
 
             if( object->hasCollider() )

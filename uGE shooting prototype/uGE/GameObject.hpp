@@ -18,11 +18,12 @@ namespace uGE {
 		public:
 			glm::mat4 & transform;
 
+
 		protected:
 			std::string _name;
 			glm::mat4 _transform;
-
             GameObject * parent;
+
 			std::vector< GameObject * > children;
 
 			Body 	 * _body;
@@ -53,6 +54,7 @@ namespace uGE {
             void onCollision ( GameObject * otherGameObject );
 
             void setParent(GameObject * aParent);
+            GameObject * getParent();
             void add( GameObject * child );
             void removeChild(GameObject * child);
 

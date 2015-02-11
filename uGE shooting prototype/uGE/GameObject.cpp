@@ -117,6 +117,12 @@ namespace uGE {
     {
         assert (aParent != NULL);
         parent = aParent;
+        std::cout << "this is a parent : " << parent << std::endl;
+    }
+
+    GameObject * GameObject::getParent(){
+        assert (parent != NULL);
+        return parent;
     }
 
     void GameObject::add( GameObject * child )

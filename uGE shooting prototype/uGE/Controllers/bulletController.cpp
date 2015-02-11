@@ -8,10 +8,10 @@ namespace uGE {
     float bulletLifetime = 4.0f;
     sf::Clock clock;
 
-    bulletController::bulletController(uGE::GameObject * parent)
+    bulletController::bulletController(uGE::GameObject * parent )
     :	Controller( parent )
     {
-        //transform = parent->transform;
+       // transform = _transform;
 
     }
 
@@ -21,19 +21,16 @@ namespace uGE {
     }
 
     void bulletController::update(){
-        glm::mat4 & transform = _parent->transform;
+        //glm::mat4 & transform = _parent->transform;
         glm::vec3 translate;
         translate += glm::vec3( 0,0,0.11 );
 
-		transform = glm::translate( transform, translate );
-		//std::cout << transform << std::endl;
-
-		//if(lifetime <= 0){
-            //bulletLifetime -= new Time.deltaTime;
-		//}
+        //_parent->setPosition(translate);
+		_parent->transform = glm::translate( _parent->transform, translate );
+        //std::cout << _parent->getName() << std::endl;
 		sf::Time elapsed = clock.getElapsedTime();
 		if(elapsed.asSeconds() >= 5.0f){
-            std::cout << "time" << std::endl;
+            //std::cout << "time" << std::endl;
 		}
     }
 }

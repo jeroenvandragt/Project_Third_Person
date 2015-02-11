@@ -5,8 +5,10 @@
 #include "Body.hpp"
 #include "GameObject.hpp"
 
+
 namespace uGE {
 
+    //class Hud;
 	class GameObject;
 	class Shader;
 
@@ -14,6 +16,8 @@ namespace uGE {
 	{
 		protected:
 			sf::Window * _window;
+        private:
+            //Hud * hud;
 		public:
 			Game();
 			virtual ~Game();

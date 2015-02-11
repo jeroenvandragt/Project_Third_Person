@@ -30,7 +30,7 @@ namespace uGE {
     float reloadTimer = 5.0f;
     bool hasShot = false;
 
-
+    sf::Clock timer;
 
     turretController::turretController(uGE::GameObject * parent)
     :	Controller( parent ), window(0)
@@ -51,31 +51,36 @@ namespace uGE {
 
     void turretController::update()
 	{
-
+        sf::Time elapsed = timer.getElapsedTime();
+        //std::cout << "in update: " << elapsed.asSeconds() << std::endl;
 	    if(hasShot == true){
             //timer.restart();
-            sf::Time elapsed = timer.getElapsedTime();
-            std::cout << elapsed.asSeconds() << std::endl;
-            if(elapsed.asMilliseconds() >= 20){
+
+            //std::cout << "after shooting: " << elapsed.asSeconds() << std::endl;
+            if(elapsed.asSeconds() >= 0.8f){
                 hasShot = false;
-                std::cout << elapsed.asMilliseconds() << std::endl;
+               // std::cout << elapsed.asMilliseconds() << std::endl;
             }
 	    }
 		glm::mat4 & transform = _parent->transform;
         if(hasShot == false){
             if (sf::Keyboard::isKeyPressed( sf::Keyboard::Space )){
-                std::cout << "key pressed" << std::endl;
+                //std::cout << "key pressed" << std::endl;
                 uGE::GameObject * bullet = new uGE::GameObject( "Bullet" );
-                bullet->setPosition( glm::vec3( 0, 0, 0 ) );
+                //bullet->transform = _parent->parent->transform * _parent->transform;
+                bullet->transform = _parent->getParent()->transform * _parent->transform;
+                //bullet->setPosition( glm::vec3( 0, 0, 0 ) );
                 uGE::Body * bulletBody = new uGE::Body( bullet );
                     bulletBody->setMesh( uGE::AssetManager::loadMesh( "Assets/bullet.obj" ) );
                     bulletBody->setTexture1( uGE::AssetManager::loadTexture( "Assets/bricks.jpg") );
                 bullet->setBody( bulletBody );
-                _parent->addChild(bullet);
+
                 bullet->setController( new uGE::bulletController( bullet ) );
                 bullet->setCollider( new uGE::SphereCollider( bullet , 1.0f ) );
+                //_parent->addChild(bullet);
+                uGE::SceneManager::add(bullet);
                 hasShot = true;
-                sf::Clock timer;
+                timer.restart();
             }
         }
 

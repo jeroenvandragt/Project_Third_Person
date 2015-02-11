@@ -28,8 +28,8 @@ namespace uGE {
         glm::vec3 targetDirection = _followee->getDirection();
         glm::vec3 up = glm::vec3(0.f, 1.f, 0.f);
 
-        parentPosition = targetPosition - ( 5.0f * glm::normalize( targetPosition - parentPosition ) + 0.15f * targetDirection ) ;
-        parentPosition.y = 3.f;
+        parentPosition = targetPosition - ( 10.0f * glm::normalize( targetPosition - parentPosition ) + 0.15f * targetDirection ) ;
+        parentPosition.y = 8.f;
 
         transform = (glm::inverse(glm::lookAt(parentPosition, targetPosition, up)));
 
