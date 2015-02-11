@@ -1,0 +1,22 @@
+11-2-2015
+
+Keyframe Animation functions implemented using Time as step for timeCounter
+
+AddFrame( Mesh *, float frameTime, std::string frameName, std::string cycleName)
+- All attributes added to a vector
+
+setCycle
+- Set the Animation Cycle it should run
+setFrame
+- Change static object's mesh by Tag
+
+
+Demo:
+Player
+	- Idle stance changing after 1 second.
+	- Moving cycle, frames change 0.33 seconds
+
+Press:
+G - Enemy/Building Full HP
+H - Enemy/Building Half HP
+J - Enemy/Building Low HP

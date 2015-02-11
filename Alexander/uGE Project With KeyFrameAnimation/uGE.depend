@@ -1,0 +1,1163 @@
+# depslib dependency file v1.0
+1420542112 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\main.cpp
+	<iostream>
+	"MyGame.hpp"
+
+1420542112 c:\users\jeroen\dropbox\uge 14.04.330\uge\mygame.hpp
+	"uGE\Game.hpp"
+
+1420542108 c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\game.hpp
+	<SFML/Window.hpp>
+	"Body.hpp"
+	"GameObject.hpp"
+
+1420542108 c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\body.hpp
+	"GameObject.hpp"
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1421063927 c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\gameobject.hpp
+	<string>
+	<vector>
+	"utils/glm.hpp"
+	"Shader.hpp"
+
+1420542110 c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\utils\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1420542109 c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\shader.hpp
+	<string>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+
+1420820903 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\mygame.cpp
+	"MyGame.hpp"
+	"uGE/Colliders/SphereCollider.hpp"
+	"uGE/SceneManager.hpp"
+	"uGE/AssetManager.hpp"
+	"uGE/Body.hpp"
+	"uGE/Camera.hpp"
+	"uGE/Controller.hpp"
+	"uGE/GameObject.hpp"
+	"uGE/Light.hpp"
+	"uGE/Mesh.hpp"
+	"uGE/Texture.hpp"
+	"uGE/Controllers/FollowController.hpp"
+	"uGE/Controllers/WasdController.hpp"
+	"uGE/Controllers/RotateController.hpp"
+
+1420820690 c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\scenemanager.hpp
+	<vector>
+	<SFML/Window.hpp>
+	"Utils/glm.hpp"
+
+1420542108 c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\assetmanager.hpp
+	<map>
+	<string>
+
+1420542108 c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\camera.hpp
+	"GameObject.hpp"
+
+1420546251 c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\controller.hpp
+
+1420542109 c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\light.hpp
+	"GameObject.hpp"
+
+1420542109 c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\mesh.hpp
+	<cstring>
+	<string>
+	<vector>
+	<map>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1420542109 c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\texture.hpp
+	<string>
+	"GL/glew.h"
+
+1420542110 c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\controllers\followcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1420542110 c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\controllers\wasdcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1420542110 c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\controllers\rotatecontroller.hpp
+	"Controller.hpp"
+
+1420542108 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\animation.cpp
+	"Animation.hpp"
+
+1420542108 c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\animation.hpp
+
+1420542108 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\assetmanager.cpp
+	"AssetManager.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1421064177 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\body.cpp
+	"Body.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1420542108 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\camera.cpp
+	"Camera.hpp"
+
+1420546129 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\collider.cpp
+	<iostream>
+	"Collider.hpp"
+	"GameObject.hpp"
+
+1420546023 c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\collider.hpp
+
+1420546307 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\controller.cpp
+	"Utils/glm.hpp"
+	"Controller.hpp"
+	"GameObject.hpp"
+
+1420542110 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\controllers\followcontroller.cpp
+	"FollowController.hpp"
+	"GameObject.hpp"
+
+1420542110 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\controllers\rotatecontroller.cpp
+	"RotateController.hpp"
+	"Utils/glm.hpp"
+	"GameObject.hpp"
+
+1420542110 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\controllers\wasdcontroller.cpp
+	<SFML/Window.hpp>
+	"WasdController.hpp"
+	"GameObject.hpp"
+
+1420542108 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\game.cpp
+	"Game.hpp"
+	"SceneManager.hpp"
+
+1421094297 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\gameobject.cpp
+	"GameObject.hpp"
+	"Controller.hpp"
+	"Body.hpp"
+	"Collider.hpp"
+
+1420542109 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\light.cpp
+	"Light.hpp"
+
+1420542109 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\mesh.cpp
+	"Mesh.hpp"
+	<fstream>
+	<map>
+
+1420542109 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\shader.cpp
+	"Shader.hpp"
+	<fstream>
+	<iostream>
+	<sstream>
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1420542109 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\texture.cpp
+	"Texture.hpp"
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1420542109 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\time.cpp
+	"Time.hpp"
+	<iostream>
+
+1420542109 c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\time.hpp
+	<SFML/System.hpp>
+
+1420820089 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\colliders\spherecollider.cpp
+	<iostream>
+	"SphereCollider.hpp"
+	"../GameObject.hpp"
+	"../utils/glm.hpp"
+
+1420545788 c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\colliders\spherecollider.hpp
+	"../utils/glm.hpp"
+	"../Collider.hpp"
+
+1420820831 source:c:\users\jeroen\dropbox\uge 14.04.330\uge\uge\scenemanager.cpp
+	"SceneManager.hpp"
+	<GL/glew.h>
+	"Utils/glm.hpp"
+	"Camera.hpp"
+	"GameObject.hpp"
+	"Light.hpp"
+	"Shader.hpp"
+
+1420542112 source:e:\files\dropbox\uge 14.04.330\uge\main.cpp
+	<iostream>
+	"MyGame.hpp"
+
+1420542112 e:\files\dropbox\uge 14.04.330\uge\mygame.hpp
+	"uGE\Game.hpp"
+
+1420542108 e:\files\dropbox\uge 14.04.330\uge\uge\game.hpp
+	<SFML/Window.hpp>
+	"Body.hpp"
+	"GameObject.hpp"
+
+1420542108 e:\files\dropbox\uge 14.04.330\uge\uge\body.hpp
+	"GameObject.hpp"
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1420820441 e:\files\dropbox\uge 14.04.330\uge\uge\gameobject.hpp
+	<string>
+	<vector>
+	"utils/glm.hpp"
+	"Shader.hpp"
+
+1420542110 e:\files\dropbox\uge 14.04.330\uge\uge\utils\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1420542109 e:\files\dropbox\uge 14.04.330\uge\uge\shader.hpp
+	<string>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+
+1420820903 source:e:\files\dropbox\uge 14.04.330\uge\mygame.cpp
+	"MyGame.hpp"
+	"uGE/Colliders/SphereCollider.hpp"
+	"uGE/SceneManager.hpp"
+	"uGE/AssetManager.hpp"
+	"uGE/Body.hpp"
+	"uGE/Camera.hpp"
+	"uGE/Controller.hpp"
+	"uGE/GameObject.hpp"
+	"uGE/Light.hpp"
+	"uGE/Mesh.hpp"
+	"uGE/Texture.hpp"
+	"uGE/Controllers/FollowController.hpp"
+	"uGE/Controllers/WasdController.hpp"
+	"uGE/Controllers/RotateController.hpp"
+
+1420545788 e:\files\dropbox\uge 14.04.330\uge\uge\colliders\spherecollider.hpp
+	"../utils/glm.hpp"
+	"../Collider.hpp"
+
+1420546023 e:\files\dropbox\uge 14.04.330\uge\uge\collider.hpp
+
+1420820690 e:\files\dropbox\uge 14.04.330\uge\uge\scenemanager.hpp
+	<vector>
+	<SFML/Window.hpp>
+	"Utils/glm.hpp"
+
+1420542108 e:\files\dropbox\uge 14.04.330\uge\uge\assetmanager.hpp
+	<map>
+	<string>
+
+1420542108 e:\files\dropbox\uge 14.04.330\uge\uge\camera.hpp
+	"GameObject.hpp"
+
+1420546251 e:\files\dropbox\uge 14.04.330\uge\uge\controller.hpp
+
+1420542109 e:\files\dropbox\uge 14.04.330\uge\uge\light.hpp
+	"GameObject.hpp"
+
+1420542109 e:\files\dropbox\uge 14.04.330\uge\uge\mesh.hpp
+	<cstring>
+	<string>
+	<vector>
+	<map>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1420542109 e:\files\dropbox\uge 14.04.330\uge\uge\texture.hpp
+	<string>
+	"GL/glew.h"
+
+1420542110 e:\files\dropbox\uge 14.04.330\uge\uge\controllers\followcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1420542110 e:\files\dropbox\uge 14.04.330\uge\uge\controllers\wasdcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1420542110 e:\files\dropbox\uge 14.04.330\uge\uge\controllers\rotatecontroller.hpp
+	"Controller.hpp"
+
+1420542108 source:e:\files\dropbox\uge 14.04.330\uge\uge\animation.cpp
+	"Animation.hpp"
+
+1420542108 e:\files\dropbox\uge 14.04.330\uge\uge\animation.hpp
+
+1420542108 source:e:\files\dropbox\uge 14.04.330\uge\uge\assetmanager.cpp
+	"AssetManager.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1420542108 source:e:\files\dropbox\uge 14.04.330\uge\uge\body.cpp
+	"Body.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1420542108 source:e:\files\dropbox\uge 14.04.330\uge\uge\camera.cpp
+	"Camera.hpp"
+
+1420546129 source:e:\files\dropbox\uge 14.04.330\uge\uge\collider.cpp
+	<iostream>
+	"Collider.hpp"
+	"GameObject.hpp"
+
+1420820089 source:e:\files\dropbox\uge 14.04.330\uge\uge\colliders\spherecollider.cpp
+	<iostream>
+	"SphereCollider.hpp"
+	"../GameObject.hpp"
+	"../utils/glm.hpp"
+
+1420546307 source:e:\files\dropbox\uge 14.04.330\uge\uge\controller.cpp
+	"Utils/glm.hpp"
+	"Controller.hpp"
+	"GameObject.hpp"
+
+1420542110 source:e:\files\dropbox\uge 14.04.330\uge\uge\controllers\followcontroller.cpp
+	"FollowController.hpp"
+	"GameObject.hpp"
+
+1420542110 source:e:\files\dropbox\uge 14.04.330\uge\uge\controllers\rotatecontroller.cpp
+	"RotateController.hpp"
+	"Utils/glm.hpp"
+	"GameObject.hpp"
+
+1420542110 source:e:\files\dropbox\uge 14.04.330\uge\uge\controllers\wasdcontroller.cpp
+	<SFML/Window.hpp>
+	"WasdController.hpp"
+	"GameObject.hpp"
+
+1420542108 source:e:\files\dropbox\uge 14.04.330\uge\uge\game.cpp
+	"Game.hpp"
+	"SceneManager.hpp"
+
+1420820515 source:e:\files\dropbox\uge 14.04.330\uge\uge\gameobject.cpp
+	"GameObject.hpp"
+	"Controller.hpp"
+	"Body.hpp"
+	"Collider.hpp"
+
+1420542109 source:e:\files\dropbox\uge 14.04.330\uge\uge\light.cpp
+	"Light.hpp"
+
+1420542109 source:e:\files\dropbox\uge 14.04.330\uge\uge\mesh.cpp
+	"Mesh.hpp"
+	<fstream>
+	<map>
+
+1420542109 source:e:\files\dropbox\uge 14.04.330\uge\uge\shader.cpp
+	"Shader.hpp"
+	<fstream>
+	<iostream>
+	<sstream>
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1420542109 source:e:\files\dropbox\uge 14.04.330\uge\uge\texture.cpp
+	"Texture.hpp"
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1420542109 source:e:\files\dropbox\uge 14.04.330\uge\uge\time.cpp
+	"Time.hpp"
+	<iostream>
+
+1420542109 e:\files\dropbox\uge 14.04.330\uge\uge\time.hpp
+	<SFML/System.hpp>
+
+1420820831 source:e:\files\dropbox\uge 14.04.330\uge\uge\scenemanager.cpp
+	"SceneManager.hpp"
+	<GL/glew.h>
+	"Utils/glm.hpp"
+	"Camera.hpp"
+	"GameObject.hpp"
+	"Light.hpp"
+	"Shader.hpp"
+
+1420542112 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\main.cpp
+	<iostream>
+	"MyGame.hpp"
+
+1420542112 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\mygame.hpp
+	"uGE\Game.hpp"
+
+1420542108 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\game.hpp
+	<SFML/Window.hpp>
+	"Body.hpp"
+	"GameObject.hpp"
+
+1421745281 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\body.hpp
+	"GameObject.hpp"
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1421744909 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\gameobject.hpp
+	<string>
+	<vector>
+	"utils/glm.hpp"
+	"Shader.hpp"
+
+1420542110 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\utils\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1421423704 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\shader.hpp
+	<string>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+
+1421750398 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\mygame.cpp
+	"MyGame.hpp"
+	"uGE/Colliders/SphereCollider.hpp"
+	"uGE/SceneManager.hpp"
+	"uGE/AssetManager.hpp"
+	"uGE/Body.hpp"
+	"uGE/Camera.hpp"
+	"uGE/Controller.hpp"
+	"uGE/GameObject.hpp"
+	"uGE/Light.hpp"
+	"uGE/Mesh.hpp"
+	"uGE/Texture.hpp"
+	"uGE/Controllers/FollowController.hpp"
+	"uGE/Controllers/WasdController.hpp"
+	"uGE/Controllers/RotateController.hpp"
+
+1420545788 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\colliders\spherecollider.hpp
+	"../utils/glm.hpp"
+	"../Collider.hpp"
+
+1420546023 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\collider.hpp
+
+1421750968 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\scenemanager.hpp
+	<vector>
+	<SFML/Window.hpp>
+	"Utils/glm.hpp"
+
+1420542108 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\assetmanager.hpp
+	<map>
+	<string>
+
+1420542108 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\camera.hpp
+	"GameObject.hpp"
+
+1420546251 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\controller.hpp
+
+1420542109 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\light.hpp
+	"GameObject.hpp"
+
+1420542109 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\mesh.hpp
+	<cstring>
+	<string>
+	<vector>
+	<map>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1420542109 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\texture.hpp
+	<string>
+	"GL/glew.h"
+
+1420542110 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\controllers\followcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1421414369 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\controllers\wasdcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1421414425 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\controllers\rotatecontroller.hpp
+	"Controller.hpp"
+
+1420542108 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\animation.cpp
+	"Animation.hpp"
+
+1420542108 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\animation.hpp
+
+1420542108 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\assetmanager.cpp
+	"AssetManager.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1421744757 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\body.cpp
+	"Body.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1420542108 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\camera.cpp
+	"Camera.hpp"
+
+1420546129 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\collider.cpp
+	<iostream>
+	"Collider.hpp"
+	"GameObject.hpp"
+
+1420820089 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\colliders\spherecollider.cpp
+	<iostream>
+	"SphereCollider.hpp"
+	"../GameObject.hpp"
+	"../utils/glm.hpp"
+
+1420546307 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\controller.cpp
+	"Utils/glm.hpp"
+	"Controller.hpp"
+	"GameObject.hpp"
+
+1420542110 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\controllers\followcontroller.cpp
+	"FollowController.hpp"
+	"GameObject.hpp"
+
+1421750037 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\controllers\rotatecontroller.cpp
+	"RotateController.hpp"
+	"Utils/glm.hpp"
+	"GameObject.hpp"
+
+1421749562 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\controllers\wasdcontroller.cpp
+	<SFML/Window.hpp>
+	"WasdController.hpp"
+	"GameObject.hpp"
+
+1421748406 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\game.cpp
+	"Game.hpp"
+	"SceneManager.hpp"
+
+1421744871 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\gameobject.cpp
+	"GameObject.hpp"
+	"Controller.hpp"
+	"Body.hpp"
+	"Collider.hpp"
+
+1421749862 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\light.cpp
+	"Light.hpp"
+
+1420542109 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\mesh.cpp
+	"Mesh.hpp"
+	<fstream>
+	<map>
+
+1422366220 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\scenemanager.cpp
+	"SceneManager.hpp"
+	<GL/glew.h>
+	"Utils/glm.hpp"
+	"Camera.hpp"
+	"GameObject.hpp"
+	"Light.hpp"
+	"Shader.hpp"
+	"time.hpp"
+	"body.hpp"
+
+1421422088 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\shader.cpp
+	"Shader.hpp"
+	<fstream>
+	<iostream>
+	<sstream>
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1420542109 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\texture.cpp
+	"Texture.hpp"
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1420542109 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\time.cpp
+	"Time.hpp"
+	<iostream>
+
+1420542109 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\time.hpp
+	<SFML/System.hpp>
+
+1420542112 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\main.cpp
+	<iostream>
+	"MyGame.hpp"
+
+1420542112 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\mygame.hpp
+	"uGE\Game.hpp"
+
+1420542108 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\game.hpp
+	<SFML/Window.hpp>
+	"Body.hpp"
+	"GameObject.hpp"
+
+1421745281 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\body.hpp
+	"GameObject.hpp"
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1421744909 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\gameobject.hpp
+	<string>
+	<vector>
+	"utils/glm.hpp"
+	"Shader.hpp"
+
+1420542110 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\utils\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1421423704 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\shader.hpp
+	<string>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+
+1421750398 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\mygame.cpp
+	"MyGame.hpp"
+	"uGE/Colliders/SphereCollider.hpp"
+	"uGE/SceneManager.hpp"
+	"uGE/AssetManager.hpp"
+	"uGE/Body.hpp"
+	"uGE/Camera.hpp"
+	"uGE/Controller.hpp"
+	"uGE/GameObject.hpp"
+	"uGE/Light.hpp"
+	"uGE/Mesh.hpp"
+	"uGE/Texture.hpp"
+	"uGE/Controllers/FollowController.hpp"
+	"uGE/Controllers/WasdController.hpp"
+	"uGE/Controllers/RotateController.hpp"
+
+1420545788 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\colliders\spherecollider.hpp
+	"../utils/glm.hpp"
+	"../Collider.hpp"
+
+1420546023 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\collider.hpp
+
+1421750968 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\scenemanager.hpp
+	<vector>
+	<SFML/Window.hpp>
+	"Utils/glm.hpp"
+
+1420542108 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\assetmanager.hpp
+	<map>
+	<string>
+
+1420542108 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\camera.hpp
+	"GameObject.hpp"
+
+1420546251 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\controller.hpp
+
+1420542109 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\light.hpp
+	"GameObject.hpp"
+
+1420542109 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\mesh.hpp
+	<cstring>
+	<string>
+	<vector>
+	<map>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1420542109 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\texture.hpp
+	<string>
+	"GL/glew.h"
+
+1420542110 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\controllers\followcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1421414369 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\controllers\wasdcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1421414425 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\controllers\rotatecontroller.hpp
+	"Controller.hpp"
+
+1420542108 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\animation.cpp
+	"Animation.hpp"
+
+1420542108 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\animation.hpp
+
+1420542108 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\assetmanager.cpp
+	"AssetManager.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1421744757 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\body.cpp
+	"Body.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1420542108 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\camera.cpp
+	"Camera.hpp"
+
+1420546129 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\collider.cpp
+	<iostream>
+	"Collider.hpp"
+	"GameObject.hpp"
+
+1420820089 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\colliders\spherecollider.cpp
+	<iostream>
+	"SphereCollider.hpp"
+	"../GameObject.hpp"
+	"../utils/glm.hpp"
+
+1420546307 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\controller.cpp
+	"Utils/glm.hpp"
+	"Controller.hpp"
+	"GameObject.hpp"
+
+1420542110 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\controllers\followcontroller.cpp
+	"FollowController.hpp"
+	"GameObject.hpp"
+
+1421750037 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\controllers\rotatecontroller.cpp
+	"RotateController.hpp"
+	"Utils/glm.hpp"
+	"GameObject.hpp"
+
+1421749562 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\controllers\wasdcontroller.cpp
+	<SFML/Window.hpp>
+	"WasdController.hpp"
+	"GameObject.hpp"
+
+1421748406 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\game.cpp
+	"Game.hpp"
+	"SceneManager.hpp"
+
+1421744871 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\gameobject.cpp
+	"GameObject.hpp"
+	"Controller.hpp"
+	"Body.hpp"
+	"Collider.hpp"
+
+1421749862 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\light.cpp
+	"Light.hpp"
+
+1420542109 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\mesh.cpp
+	"Mesh.hpp"
+	<fstream>
+	<map>
+
+1422366220 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\scenemanager.cpp
+	"SceneManager.hpp"
+	<GL/glew.h>
+	"Utils/glm.hpp"
+	"Camera.hpp"
+	"GameObject.hpp"
+	"Light.hpp"
+	"Shader.hpp"
+	"time.hpp"
+	"body.hpp"
+
+1420542109 k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\time.hpp
+	<SFML/System.hpp>
+
+1421422088 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\shader.cpp
+	"Shader.hpp"
+	<fstream>
+	<iostream>
+	<sstream>
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1420542109 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\texture.cpp
+	"Texture.hpp"
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1420542109 source:k:\programs\dropbox\saxion\year 2\periode 2.2\c++ 3d\uge 14.04.330\uge\uge\time.cpp
+	"Time.hpp"
+	<iostream>
+
+1420542112 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\main.cpp
+	<iostream>
+	"MyGame.hpp"
+
+1420542112 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\mygame.hpp
+	"uGE\Game.hpp"
+
+1420542108 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\game.hpp
+	<SFML/Window.hpp>
+	"Body.hpp"
+	"GameObject.hpp"
+
+1421745281 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\body.hpp
+	"GameObject.hpp"
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1421744909 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\gameobject.hpp
+	<string>
+	<vector>
+	"utils/glm.hpp"
+	"Shader.hpp"
+
+1420542110 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\utils\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1421423704 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\shader.hpp
+	<string>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+
+1421750398 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\mygame.cpp
+	"MyGame.hpp"
+	"uGE/Colliders/SphereCollider.hpp"
+	"uGE/SceneManager.hpp"
+	"uGE/AssetManager.hpp"
+	"uGE/Body.hpp"
+	"uGE/Camera.hpp"
+	"uGE/Controller.hpp"
+	"uGE/GameObject.hpp"
+	"uGE/Light.hpp"
+	"uGE/Mesh.hpp"
+	"uGE/Texture.hpp"
+	"uGE/Controllers/FollowController.hpp"
+	"uGE/Controllers/WasdController.hpp"
+	"uGE/Controllers/RotateController.hpp"
+
+1420545788 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\colliders\spherecollider.hpp
+	"../utils/glm.hpp"
+	"../Collider.hpp"
+
+1420546023 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\collider.hpp
+
+1421750968 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\scenemanager.hpp
+	<vector>
+	<SFML/Window.hpp>
+	"Utils/glm.hpp"
+
+1420542108 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\assetmanager.hpp
+	<map>
+	<string>
+
+1420542108 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\camera.hpp
+	"GameObject.hpp"
+
+1420546251 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\controller.hpp
+
+1420542109 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\light.hpp
+	"GameObject.hpp"
+
+1420542109 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\mesh.hpp
+	<cstring>
+	<string>
+	<vector>
+	<map>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1420542109 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\texture.hpp
+	<string>
+	"GL/glew.h"
+
+1421742582 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\controllers\followcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1421414369 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\controllers\wasdcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1421414425 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\controllers\rotatecontroller.hpp
+	"Controller.hpp"
+
+1420542108 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\animation.cpp
+	"Animation.hpp"
+
+1420542108 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\animation.hpp
+
+1420542108 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\assetmanager.cpp
+	"AssetManager.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1421744757 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\body.cpp
+	"Body.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1420542108 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\camera.cpp
+	"Camera.hpp"
+
+1420546129 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\collider.cpp
+	<iostream>
+	"Collider.hpp"
+	"GameObject.hpp"
+
+1420820089 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\colliders\spherecollider.cpp
+	<iostream>
+	"SphereCollider.hpp"
+	"../GameObject.hpp"
+	"../utils/glm.hpp"
+
+1420546307 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\controller.cpp
+	"Utils/glm.hpp"
+	"Controller.hpp"
+	"GameObject.hpp"
+
+1421742582 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\controllers\followcontroller.cpp
+	"FollowController.hpp"
+	"GameObject.hpp"
+
+1421750037 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\controllers\rotatecontroller.cpp
+	"RotateController.hpp"
+	"Utils/glm.hpp"
+	"GameObject.hpp"
+
+1421749562 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\controllers\wasdcontroller.cpp
+	<SFML/Window.hpp>
+	"WasdController.hpp"
+	"GameObject.hpp"
+
+1421748406 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\game.cpp
+	"Game.hpp"
+	"SceneManager.hpp"
+
+1421744871 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\gameobject.cpp
+	"GameObject.hpp"
+	"Controller.hpp"
+	"Body.hpp"
+	"Collider.hpp"
+
+1421749862 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\light.cpp
+	"Light.hpp"
+
+1420542109 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\mesh.cpp
+	"Mesh.hpp"
+	<fstream>
+	<map>
+
+1423214239 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\scenemanager.cpp
+	"SceneManager.hpp"
+	<GL/glew.h>
+	"Utils/glm.hpp"
+	"Camera.hpp"
+	"GameObject.hpp"
+	"Light.hpp"
+	"Shader.hpp"
+	"time.hpp"
+	"body.hpp"
+
+1420542109 c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\time.hpp
+	<SFML/System.hpp>
+
+1421422088 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\shader.cpp
+	"Shader.hpp"
+	<fstream>
+	<iostream>
+	<sstream>
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1420542109 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\texture.cpp
+	"Texture.hpp"
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1420542109 source:c:\users\henk-jan\dropbox\saxion\year 2\periode 2.3\project third person\uge\uge\time.cpp
+	"Time.hpp"
+	<iostream>
+
+1423231253 source:c:\users\alexander\desktop\uge project clean\main.cpp
+	<iostream>
+	"MyGame.hpp"
+
+1423230987 c:\users\alexander\desktop\uge project clean\mygame.hpp
+	"uGE\Game.hpp"
+
+1423230987 c:\users\alexander\desktop\uge project clean\uge\game.hpp
+	<SFML/Window.hpp>
+	"Body.hpp"
+	"GameObject.hpp"
+
+1423569360 c:\users\alexander\desktop\uge project clean\uge\body.hpp
+	"GameObject.hpp"
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1423656156 c:\users\alexander\desktop\uge project clean\uge\gameobject.hpp
+	<string>
+	<vector>
+	"utils/glm.hpp"
+	"Shader.hpp"
+	"Mesh.hpp"
+
+1423230987 c:\users\alexander\desktop\uge project clean\uge\utils\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1423231253 c:\users\alexander\desktop\uge project clean\uge\shader.hpp
+	<string>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+
+1423656142 source:c:\users\alexander\desktop\uge project clean\mygame.cpp
+	"MyGame.hpp"
+	"uGE/Colliders/SphereCollider.hpp"
+	"uGE/SceneManager.hpp"
+	"uGE/AssetManager.hpp"
+	"uGE/Body.hpp"
+	"uGE/Camera.hpp"
+	"uGE/Controller.hpp"
+	"uGE/GameObject.hpp"
+	"uGE/Light.hpp"
+	"uGE/Mesh.hpp"
+	"uGE/Texture.hpp"
+	"uGE/Controllers/FollowController.hpp"
+	"uGE/Controllers/WasdController.hpp"
+	"uGE/Controllers/RotateController.hpp"
+
+1423230987 c:\users\alexander\desktop\uge project clean\uge\colliders\spherecollider.hpp
+	"../utils/glm.hpp"
+	"../Collider.hpp"
+
+1423230987 c:\users\alexander\desktop\uge project clean\uge\collider.hpp
+
+1423649601 c:\users\alexander\desktop\uge project clean\uge\scenemanager.hpp
+	<vector>
+	<SFML/Window.hpp>
+	"Utils/glm.hpp"
+
+1423230987 c:\users\alexander\desktop\uge project clean\uge\assetmanager.hpp
+	<map>
+	<string>
+
+1423230987 c:\users\alexander\desktop\uge project clean\uge\camera.hpp
+	"GameObject.hpp"
+
+1423230987 c:\users\alexander\desktop\uge project clean\uge\controller.hpp
+
+1423230987 c:\users\alexander\desktop\uge project clean\uge\light.hpp
+	"GameObject.hpp"
+
+1423230987 c:\users\alexander\desktop\uge project clean\uge\mesh.hpp
+	<cstring>
+	<string>
+	<vector>
+	<map>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1423230987 c:\users\alexander\desktop\uge project clean\uge\texture.hpp
+	<string>
+	"GL/glew.h"
+
+1423230987 c:\users\alexander\desktop\uge project clean\uge\controllers\followcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1423231253 c:\users\alexander\desktop\uge project clean\uge\controllers\wasdcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1423231253 c:\users\alexander\desktop\uge project clean\uge\controllers\rotatecontroller.hpp
+	"Controller.hpp"
+
+1423230987 source:c:\users\alexander\desktop\uge project clean\uge\animation.cpp
+	"Animation.hpp"
+
+1423230987 c:\users\alexander\desktop\uge project clean\uge\animation.hpp
+
+1423230987 source:c:\users\alexander\desktop\uge project clean\uge\assetmanager.cpp
+	"AssetManager.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1423569392 source:c:\users\alexander\desktop\uge project clean\uge\body.cpp
+	"Body.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1423230987 source:c:\users\alexander\desktop\uge project clean\uge\camera.cpp
+	"Camera.hpp"
+
+1423230987 source:c:\users\alexander\desktop\uge project clean\uge\collider.cpp
+	<iostream>
+	"Collider.hpp"
+	"GameObject.hpp"
+
+1423230987 source:c:\users\alexander\desktop\uge project clean\uge\colliders\spherecollider.cpp
+	<iostream>
+	"SphereCollider.hpp"
+	"../GameObject.hpp"
+	"../utils/glm.hpp"
+
+1423231253 source:c:\users\alexander\desktop\uge project clean\uge\controller.cpp
+	"Utils/glm.hpp"
+	"Controller.hpp"
+	"GameObject.hpp"
+
+1423231253 source:c:\users\alexander\desktop\uge project clean\uge\controllers\followcontroller.cpp
+	"FollowController.hpp"
+	"GameObject.hpp"
+
+1423656013 source:c:\users\alexander\desktop\uge project clean\uge\controllers\rotatecontroller.cpp
+	<SFML/Window.hpp>
+	"RotateController.hpp"
+	"Utils/glm.hpp"
+	"GameObject.hpp"
+
+1423655360 source:c:\users\alexander\desktop\uge project clean\uge\controllers\wasdcontroller.cpp
+	<SFML/Window.hpp>
+	"WasdController.hpp"
+	"GameObject.hpp"
+
+1423231253 source:c:\users\alexander\desktop\uge project clean\uge\game.cpp
+	"Game.hpp"
+	"SceneManager.hpp"
+
+1423656062 source:c:\users\alexander\desktop\uge project clean\uge\gameobject.cpp
+	"GameObject.hpp"
+	"Controller.hpp"
+	"Body.hpp"
+	"Collider.hpp"
+
+1423231253 source:c:\users\alexander\desktop\uge project clean\uge\light.cpp
+	"Light.hpp"
+
+1423230987 source:c:\users\alexander\desktop\uge project clean\uge\mesh.cpp
+	"Mesh.hpp"
+	<fstream>
+	<map>
+
+1423649740 source:c:\users\alexander\desktop\uge project clean\uge\scenemanager.cpp
+	"SceneManager.hpp"
+	<GL/glew.h>
+	"Utils/glm.hpp"
+	"Camera.hpp"
+	"GameObject.hpp"
+	"Light.hpp"
+	"Shader.hpp"
+	"Time.hpp"
+	"Body.hpp"
+
+1423230987 c:\users\alexander\desktop\uge project clean\uge\time.hpp
+	<SFML/System.hpp>
+
+1423231253 source:c:\users\alexander\desktop\uge project clean\uge\shader.cpp
+	"Shader.hpp"
+	<fstream>
+	<iostream>
+	<sstream>
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1423230987 source:c:\users\alexander\desktop\uge project clean\uge\texture.cpp
+	"Texture.hpp"
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1423230987 source:c:\users\alexander\desktop\uge project clean\uge\time.cpp
+	"Time.hpp"
+	<iostream>
+
