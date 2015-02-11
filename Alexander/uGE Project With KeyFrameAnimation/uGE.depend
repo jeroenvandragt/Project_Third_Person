@@ -1161,3 +1161,195 @@
 	"Time.hpp"
 	<iostream>
 
+1423231253 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\main.cpp
+	<iostream>
+	"MyGame.hpp"
+
+1423230987 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\mygame.hpp
+	"uGE\Game.hpp"
+
+1423230987 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\game.hpp
+	<SFML/Window.hpp>
+	"Body.hpp"
+	"GameObject.hpp"
+
+1423569360 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\body.hpp
+	"GameObject.hpp"
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1423656156 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\gameobject.hpp
+	<string>
+	<vector>
+	"utils/glm.hpp"
+	"Shader.hpp"
+	"Mesh.hpp"
+
+1423230987 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\utils\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1423231253 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\shader.hpp
+	<string>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+
+1423230987 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\mesh.hpp
+	<cstring>
+	<string>
+	<vector>
+	<map>
+	<GL/glew.h>
+	"Utils/glm.hpp"
+	"Shader.hpp"
+
+1423656142 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\mygame.cpp
+	"MyGame.hpp"
+	"uGE/Colliders/SphereCollider.hpp"
+	"uGE/SceneManager.hpp"
+	"uGE/AssetManager.hpp"
+	"uGE/Body.hpp"
+	"uGE/Camera.hpp"
+	"uGE/Controller.hpp"
+	"uGE/GameObject.hpp"
+	"uGE/Light.hpp"
+	"uGE/Mesh.hpp"
+	"uGE/Texture.hpp"
+	"uGE/Controllers/FollowController.hpp"
+	"uGE/Controllers/WasdController.hpp"
+	"uGE/Controllers/RotateController.hpp"
+
+1423230987 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\colliders\spherecollider.hpp
+	"../utils/glm.hpp"
+	"../Collider.hpp"
+
+1423230987 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\collider.hpp
+
+1423649601 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\scenemanager.hpp
+	<vector>
+	<SFML/Window.hpp>
+	"Utils/glm.hpp"
+
+1423230987 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\assetmanager.hpp
+	<map>
+	<string>
+
+1423230987 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\camera.hpp
+	"GameObject.hpp"
+
+1423230987 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\controller.hpp
+
+1423230987 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\light.hpp
+	"GameObject.hpp"
+
+1423230987 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\texture.hpp
+	<string>
+	"GL/glew.h"
+
+1423230987 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\controllers\followcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1423231253 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\controllers\wasdcontroller.hpp
+	"utils/glm.hpp"
+	"Controller.hpp"
+
+1423231253 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\controllers\rotatecontroller.hpp
+	"Controller.hpp"
+
+1423230987 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\animation.cpp
+	"Animation.hpp"
+
+1423230987 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\animation.hpp
+
+1423230987 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\assetmanager.cpp
+	"AssetManager.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1423569392 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\body.cpp
+	"Body.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1423230987 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\camera.cpp
+	"Camera.hpp"
+
+1423230987 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\collider.cpp
+	<iostream>
+	"Collider.hpp"
+	"GameObject.hpp"
+
+1423230987 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\colliders\spherecollider.cpp
+	<iostream>
+	"SphereCollider.hpp"
+	"../GameObject.hpp"
+	"../utils/glm.hpp"
+
+1423231253 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\controller.cpp
+	"Utils/glm.hpp"
+	"Controller.hpp"
+	"GameObject.hpp"
+
+1423231253 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\controllers\followcontroller.cpp
+	"FollowController.hpp"
+	"GameObject.hpp"
+
+1423656175 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\controllers\rotatecontroller.cpp
+	<SFML/Window.hpp>
+	"RotateController.hpp"
+	"Utils/glm.hpp"
+	"GameObject.hpp"
+
+1423655360 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\controllers\wasdcontroller.cpp
+	<SFML/Window.hpp>
+	"WasdController.hpp"
+	"GameObject.hpp"
+
+1423231253 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\game.cpp
+	"Game.hpp"
+	"SceneManager.hpp"
+
+1423656152 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\gameobject.cpp
+	"GameObject.hpp"
+	"Controller.hpp"
+	"Body.hpp"
+	"Collider.hpp"
+
+1423231253 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\light.cpp
+	"Light.hpp"
+
+1423230987 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\mesh.cpp
+	"Mesh.hpp"
+	<fstream>
+	<map>
+
+1423231253 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\shader.cpp
+	"Shader.hpp"
+	<fstream>
+	<iostream>
+	<sstream>
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1423230987 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\texture.cpp
+	"Texture.hpp"
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1423230987 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\time.cpp
+	"Time.hpp"
+	<iostream>
+
+1423230987 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\time.hpp
+	<SFML/System.hpp>
+
+1391633155 source:c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\fps.cpp
+	<iostream>
+	"FPS.hpp"
+	"Time.hpp"
+
+1361092144 c:\users\alexander\documents\github\project_third_person\alexander\uge project with keyframeanimation\uge\fps.hpp
+

@@ -77,6 +77,8 @@
 		<Unit filename="uGE/Controllers/RotateController.hpp" />
 		<Unit filename="uGE/Controllers/WasdController.cpp" />
 		<Unit filename="uGE/Controllers/WasdController.hpp" />
+		<Unit filename="uGE/FPS.cpp" />
+		<Unit filename="uGE/FPS.hpp" />
 		<Unit filename="uGE/Game.cpp" />
 		<Unit filename="uGE/Game.hpp" />
 		<Unit filename="uGE/GameObject.cpp" />

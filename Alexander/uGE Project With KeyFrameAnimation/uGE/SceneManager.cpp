@@ -8,6 +8,7 @@
 #include "Light.hpp"
 #include "Shader.hpp"
 #include "Time.hpp"
+#include "FPS.hpp"
 #include "Body.hpp"
 
 namespace uGE {
@@ -107,6 +108,7 @@ namespace uGE {
 		_camera->update( Time::step() );
 		_light->update( Time::step() );
 		Time::update();
+		FPS::update();
         clock = Time::now();
 		for ( auto i = _objects.begin(); i != _objects.end(); ++i )
         {
@@ -130,7 +132,6 @@ namespace uGE {
             }
 
 		}
-
 	}
 
 }
